@@ -1,0 +1,74 @@
+/* Smooth scrolling */
+html{
+    scroll-behavior: smooth;
+}
+
+/* Body */
+body{
+    background: #f8f5ef;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar */
+.navbar{
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    height: 120px;
+}
+
+/* Hero Section */
+section{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+h1 span{
+    color: #dc3545;
+}
+
+/* Recipe Cards */
+.card{
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,.15);
+    transition: transform .3s ease;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.card img{
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-body{
+    text-align: center;
+}
+
+/* Recipe Sections */
+#tonkotsu,
+#shoyu,
+#miso{
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    margin-top: 40px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+}
+
+/* Lists */
+ul,
+ol{
+    line-height: 1.8;
+}
+
+/* Footer */
+footer{
+    margin-top: 50px;
+}
+
+.span{
+
+}
